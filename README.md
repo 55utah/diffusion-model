@@ -9,4 +9,4 @@
 
 ## 采样过程可视化
 
-<img src="./display/ddpm_steps.gif"/>
+<img src="./display/ddpm_steps1.gif"/>
