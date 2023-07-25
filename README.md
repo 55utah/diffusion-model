@@ -1,12 +1,30 @@
-## 说明
-本项目是DDPM算法的pytorch复现，数据集自定义。
+## Intro
+This project is a pytorch reproduction of the DDPM algorithm, and the data set uses a custom data set.
 
-## 效果
+## Basic Info
+Database: from [DeepLearning.ai](https://learn.deeplearning.ai/diffusion-models/lesson/1/introduction)
+Python: 3.9.6
+Pytorch: 2.0.1
 
-<img src="./display/001.png"/>
+## Try
 
-<img src="./display/003.png"/>
+`Train: python src/train.py`
+`Sample: python src/sample.py`
 
-## 采样过程可视化
+## Show Result
 
-<img src="./display/ddpm_steps1.gif"/>
+<img style="width: 120px" src="./display/result/002.png"/>
+<img style="width: 120px" src="./display/result/003.png"/>
+<img style="height: 120px" src="./display/result/004.png"/>
+<img style="height: 120px" src="./display/result/006.png"/>
+<img style="height: 120px" src="./display/result/007.png"/>
+<img style="height: 120px" src="./display/result/008.png"/>
+<img style="height: 120px" src="./display/result/009.png"/>
+<img style="height: 120px" src="./display/result/005.png"/>
+
+## Show Sample Process
+
+<img style="height: 200px" src="./display/gif/ddpm_1.gif"/>
+<img style="height: 200px" src="./display/gif/ddpm_2.gif"/>
+<img style="height: 200px" src="./display/gif/ddpm_3.gif"/>
+<img style="height: 200px" src="./display/gif/ddpm_4.gif"/>
